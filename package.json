@@ -1,0 +1,31 @@
+{
+  "name": "konkontest",
+  "version": "1.0.0",
+  "description": "demo package",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konhui75/npm-test.git"
+  },
+  "keywords": [
+    "kon"
+  ],
+  "author": "kon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konhui75/npm-test/issues"
+  },
+  "homepage": "https://github.com/konhui75/npm-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
